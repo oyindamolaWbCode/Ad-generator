@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #202632;
+}
+
+.advice-container{
+    width: 600px;
+    height: 300px;
+    background-color: #313A49;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+.Container{
+    padding: 30px;
+}
+
+.divider{
+    display: flex;
+    justify-content: center;
+}
+
+#adviceId{
+    color: #51FFAC;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.advice-content{
+   text-align: center;
+   font-size: 17px;
+   color:#CDE2E9;
+   margin: 45px 0px;
+}
+
+
+.next-Advice{
+    height: 50px;
+    width:50px;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(74,210,146);
+    border-radius: 100%;
+    align-items: center;
+    right: 740px;
+    top: 370px;
+   
+}
+
+.next-Advice:hover{
+
+    background-color:rgb(137, 234, 189) ;
+}
+
+.imageChange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 12px;
+}
